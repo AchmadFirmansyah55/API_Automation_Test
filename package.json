@@ -1,0 +1,17 @@
+{
+  "name": "homework_api_automation_achmad",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha tests/tests"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "chai": "^6.2.2",
+    "mocha": "^11.8.0"
+  }
+}
