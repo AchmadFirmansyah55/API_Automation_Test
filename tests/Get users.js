@@ -39,5 +39,6 @@ describe("Get users test",function(){
         })
         const data = await response.json();
         assert.strictEqual(response.status,401);
+        assert.strictEqual(data.message,'Token required!');
     })
 })
